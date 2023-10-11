@@ -1,0 +1,479 @@
+[
+    {
+        "data": {
+            "question": 42,
+            "c1": 7,
+            "c2": 3,
+            "c3": 3
+        },
+        "diff": "easy"
+    },
+    {
+        "data": {
+            "question": 20,
+            "c1": 1,
+            "c2": 3,
+            "c3": 6
+        },
+        "diff": "easy"
+    },
+    {
+        "data": {
+            "question": 3,
+            "c1": 1,
+            "c2": 1,
+            "c3": 7
+        },
+        "diff": "easy"
+    },
+    {
+        "data": {
+            "question": 24,
+            "c1": 3,
+            "c2": 10,
+            "c3": 7
+        },
+        "diff": "easy"
+    },
+    {
+        "data": {
+            "question": 32,
+            "c1": 7,
+            "c2": 5,
+            "c3": 6
+        },
+        "diff": "easy"
+    },
+    {
+        "data": {
+            "question": 21,
+            "c1": 8,
+            "c2": 5,
+            "c3": 2
+        },
+        "diff": "easy"
+    },
+    {
+        "data": {
+            "question": 0,
+            "c1": 8,
+            "c2": 9,
+            "c3": 5
+        },
+        "diff": "easy"
+    },
+    {
+        "data": {
+            "question": 47,
+            "c1": 4,
+            "c2": 2,
+            "c3": 1
+        },
+        "diff": "easy"
+    },
+    {
+        "data": {
+            "question": 35,
+            "c1": 4,
+            "c2": 3,
+            "c3": 3
+        },
+        "diff": "easy"
+    },
+    {
+        "data": {
+            "question": 64,
+            "c1": 9,
+            "c2": 5,
+            "c3": 1
+        },
+        "diff": "easy"
+    },
+    {
+        "data": {
+            "question": 47,
+            "c1": 7,
+            "c2": 2,
+            "c3": 6
+        },
+        "diff": "easy"
+    },
+    {
+        "data": {
+            "question": 66,
+            "c1": 1,
+            "c2": 9,
+            "c3": 1
+        },
+        "diff": "easy"
+    },
+    {
+        "data": {
+            "question": 83,
+            "c1": 0,
+            "c2": 3,
+            "c3": 7
+        },
+        "diff": "easy"
+    },
+    {
+        "data": {
+            "question": 81,
+            "c1": 7,
+            "c2": 6,
+            "c3": 9
+        },
+        "diff": "easy"
+    },
+    {
+        "data": {
+            "question": 52,
+            "c1": 5,
+            "c2": 2,
+            "c3": 1
+        },
+        "diff": "easy"
+    },
+    {
+        "data": {
+            "question": 48,
+            "c1": 3,
+            "c2": 9,
+            "c3": 5
+        },
+        "diff": "easy"
+    },
+    {
+        "data": {
+            "question": 24,
+            "c1": 2,
+            "c2": 9,
+            "c3": 1
+        },
+        "diff": "easy"
+    },
+    {
+        "data": {
+            "question": 39,
+            "c1": 7,
+            "c2": 4,
+            "c3": 2
+        },
+        "diff": "easy"
+    },
+    {
+        "data": {
+            "question": 61,
+            "c1": 6,
+            "c2": 0,
+            "c3": 1
+        },
+        "diff": "easy"
+    },
+    {
+        "data": {
+            "question": 70,
+            "c1": 7,
+            "c2": 7,
+            "c3": 7
+        },
+        "diff": "medium"
+    },
+    {
+        "data": {
+            "question": 60,
+            "c1": 1,
+            "c2": 6,
+            "c3": 4
+        },
+        "diff": "medium"
+    },
+    {
+        "data": {
+            "question": 11,
+            "c1": 15,
+            "c2": 7,
+            "c3": 5
+        },
+        "diff": "medium"
+    },
+    {
+        "data": {
+            "question": 131,
+            "c1": 3,
+            "c2": 8,
+            "c3": 17
+        },
+        "diff": "medium"
+    },
+    {
+        "data": {
+            "question": 18,
+            "c1": 15,
+            "c2": 1,
+            "c3": 9
+        },
+        "diff": "medium"
+    },
+    {
+        "data": {
+            "question": 96,
+            "c1": 16,
+            "c2": 2,
+            "c3": 8
+        },
+        "diff": "medium"
+    },
+    {
+        "data": {
+            "question": 1.5,
+            "c1": 2,
+            "c2": 12,
+            "c3": 0
+        },
+        "diff": "medium"
+    },
+    {
+        "data": {
+            "question": 4,
+            "c1": 8,
+            "c2": 7,
+            "c3": 14
+        },
+        "diff": "medium"
+    },
+    {
+        "data": {
+            "question": 31,
+            "c1": 30,
+            "c2": 8,
+            "c3": 6
+        },
+        "diff": "medium"
+    },
+    {
+        "data": {
+            "question": 47,
+            "c1": 7,
+            "c2": 33,
+            "c3": 1
+        },
+        "diff": "medium"
+    },
+    {
+        "data": {
+            "question": 63,
+            "c1": 7,
+            "c2": 8,
+            "c3": 10
+        },
+        "diff": "medium"
+    },
+    {
+        "data": {
+            "question": 86,
+            "c1": 0,
+            "c2": 1,
+            "c3": 2
+        },
+        "diff": "medium"
+    },
+    {
+        "data": {
+            "question": 16,
+            "c1": 9,
+            "c2": 47,
+            "c3": 8
+        },
+        "diff": "medium"
+    },
+    {
+        "data": {
+            "question": 49,
+            "c1": 16,
+            "c2": 2,
+            "c3": 5
+        },
+        "diff": "medium"
+    },
+    {
+        "data": {
+            "question": 89,
+            "c1": 7,
+            "c2": 4,
+            "c3": 98
+        },
+        "diff": "medium"
+    },
+    {
+        "data": {
+            "question": 33,
+            "c1": 58,
+            "c2": 6,
+            "c3": 2
+        },
+        "diff": "medium"
+    },
+    {
+        "data": {
+            "question": 92,
+            "c1": 26,
+            "c2": 9,
+            "c3": 2
+        },
+        "diff": "medium"
+    },
+    {
+        "data": {
+            "question": 0,
+            "c1": 4,
+            "c2": 8,
+            "c3": 23
+        },
+        "diff": "medium"
+    },
+    {
+        "data": {
+            "question": 34,
+            "c1": 3,
+            "c2": 11,
+            "c3": 0
+        },
+        "diff": "medium"
+    },
+    {
+        "data": {
+            "question": 136,
+            "c1": 12,
+            "c2": 34,
+            "c3": 56
+        },
+        "diff": "hard"
+    },
+    {
+        "data": {
+            "question": 72,
+            "c1": 1,
+            "c2": 1,
+            "c3": 1
+        },
+        "diff": "hard"
+    },
+    {
+        "data": {
+            "question": 28,
+            "c1": 17,
+            "c2": 31,
+            "c3": 53
+        },
+        "diff": "hard"
+    },
+    {
+        "data": {
+            "question": 199,
+            "c1": 96,
+            "c2": 66,
+            "c3": 69
+        },
+        "diff": "hard"
+    },
+    {
+        "data": {
+            "question": 30,
+            "c1": 11,
+            "c2": 9,
+            "c3": 72
+        },
+        "diff": "hard"
+    },
+    {
+        "data": {
+            "question": 56,
+            "c1": 11,
+            "c2": 21,
+            "c3": 12
+        },
+        "diff": "hard"
+    },
+    {
+        "data": {
+            "question": 555,
+            "c1": 15,
+            "c2": 25,
+            "c3": 35
+        },
+        "diff": "hard"
+    },
+    {
+        "data": {
+            "question": 7,
+            "c1": 19,
+            "c2": 61,
+            "c3": 97
+        },
+        "diff": "hard"
+    },
+    {
+        "data": {
+            "question": 80,
+            "c1": 21,
+            "c2": 10,
+            "c3": 14
+        },
+        "diff": "hard"
+    },
+    {
+        "data": {
+            "question": 111,
+            "c1": 99,
+            "c2": 88,
+            "c3": 77
+        },
+        "diff": "hard"
+    },
+    {
+        "data": {
+            "question": 11.5,
+            "c1": 1,
+            "c2": 0,
+            "c3": 0
+        },
+        "diff": "hard"
+    },
+    {
+        "data": {
+            "question": 37,
+            "c1": 80,
+            "c2": 60,
+            "c3": 65
+        },
+        "diff": "hard"
+    },
+    {
+        "data": {
+            "question": 139,
+            "c1": 47,
+            "c2": 31,
+            "c3": 59
+        },
+        "diff": "hard"
+    },
+    {
+        "data": {
+            "question": 271,
+            "c1": 67,
+            "c2": 89,
+            "c3": 41
+        },
+        "diff": "hard"
+    },
+    {
+        "data": {
+            "question": -97,
+            "c1": 191,
+            "c2": 17,
+            "c3": 79
+        },
+        "diff": "hard"
+    }
+]

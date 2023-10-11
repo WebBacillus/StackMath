@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stack Math</title>
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="main_game.css">
+    <link rel="stylesheet" href="score_board.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Aclonica&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="container1" id="container1">
+            <header>
+                <div class="head_content">
+                    <h1>STACK MATH</h1>
+                    <p>Game For Geniuses Guy</p>
+                </div>
+            </header>
+            <section>
+                <div class="start_game" id="startGame">
+                    <div class="start_game_content">
+                        <div class="button_group">
+                            <div class="select_diff">
+                                <button id="start_game">START GAME</button>
+                            </div>
+                            <div class="how_to_play">
+                                <button id="how_to_play">HOW TO PLAY</button>
+                            </div>
+                            <div class="show_score_board">
+                                <button id="show_score_board">SCORE BOARD</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="diff" id="diff">
+                    <div class="diff_content">
+                        <h1>Select Difficulty</h1>
+                        <div class="panel">
+                            <div class="left_panel">
+                                <button id="easy">Easy</buttonon>
+                                    <button id="medium">Medium</button>
+                                    <button id="hard">Hard</button>
+                            </div>
+                            <div class="right_panel">
+                                <p id="diff_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, dicta!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="bottom_panel">
+                            <div class="diff_back">
+                                <button id="diff_back">BACK</button>
+                            </div>
+                            <div class="diff_start">
+                                <button id="diff_start">START</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="game_rules" id="game_rules">
+                    <div class="game_rules_content">
+                        <h1>ABOUT THIS GAME</h1>
+                        <div class="tutorial">
+                            <iframe src="https://giphy.com/embed/okfvUCpgArv3y" width="480" height="433" frameBorder="0"
+                                class="giphy-embed" allowFullScreen></iframe>
+                            <p><a href="https://giphy.com/gifs/funny-happy-excited-okfvUCpgArv3y"></a></p>
+                        </div>
+                        <p>This is a math game that uses a stack where you are given 3 numbers and use + - × ÷ to get
+                            the
+                            correct answer.</p>
+                        <button id="game_rules_back">I see</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="container2" id="container2">
+            <header>
+                <h1>STACK MATH</h1>
+                <p>Game For Geniuses Guy</p>
+            </header>
+            <section>
+                <div class="top">
+                    <div class="left">
+                        <div class="time">
+                            <div class="time_content">
+                                <h2>Time : </h2>
+                                <div class="time_counter">
+                                    <h2 id="time_counter">0</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="score">
+                            <div class="score_content">
+                                <h2>Score : </h2>
+                                <div class="score_counter">
+                                    <h2 id="score_counter">0</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="skip_content" id="skip">
+                            <button id="skip" class="skip">Skip</button>
+                        </div>
+                        <div class="restart_content">
+                            <button id="restart" class="restart">Restart</button>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <div class="question_content">
+                            <h1 id="question">0</h1>
+                        </div>
+                    </div>
+                </div>
+                <div id="game_over" class="game_over">
+                    <div class="game_over_content">
+                        <h1>Game Over</h1>
+                        <div class="flex your_score">
+                            <h2>Your score :</h2>
+                            <h3 id="your_score_counter">0</h3>
+                        </div>
+                        <div class="form">
+                            <div class="flex">
+                                <h3>student-ID:</h3>
+                                <input type="text" id="student_id" placeholder="6633XXXX21" required>
+                                <!-- <input type="number" id="Score" value="30" required> -->
+                            </div>
+                            <div class="flex">
+                                <h3>Name:</h3>
+                                <input type="text" id="name" placeholder="ผีหลอก วิญญานหลอน" required>
+                            </div>
+                        </div>
+                        <div class="flex game_bottom">
+                            <div class="game_over_skip">
+                                <button id="game_over_skip">Skip</button>
+                            </div>
+                            <div class="game_over_submit">
+                                <button id="game_over_submit">Ok</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <div class="main_game">
+                    <div class="block" id="choice1">
+                        <h2 id="block1">1</h2>
+                    </div>
+                    <div class="block" id="choice2">
+                        <h2 id="block2">2</h2>
+                    </div>
+                    <div class="block" id="choice3">
+                        <h2 id="block3">3</h2>
+                    </div>
+                </div>
+                <div class="operation">
+                    <div class="op_block" id="op1">
+                        <div class="op_content">
+                            <i class="fa-solid fa-plus fa-lg" style="color: #ffffff;"></i>
+                        </div>
+                    </div>
+                    <div class="op_block" id="op2">
+                        <div class="op_content">
+                            <i class="fa-solid fa-minus fa-lg" style="color: #ffffff;"></i>
+                        </div>
+                    </div>
+                    <div class="op_block" id="op3">
+                        <div class="op_content">
+                            <i class="fa-solid fa-xmark fa-lg" style="color: #ffffff;"></i>
+                        </div>
+                    </div>
+                    <div class="op_block" id="op4">
+                        <div class="op_content">
+                            <i class="fa-solid fa-percent fa-lg" style="color: #ffffff;"></i>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <div class="container3" id="container3">
+            <header>
+                <h1>STACK MATH</h1>
+                <p>Game For Geniuses Guy</p>
+            </header>
+            <section>
+                <div class="score_board" id="score_board">
+                    <div class="score_board_content">
+                        <table id="main-table">
+                            <thead>
+                                <tr>
+                                    <th class="rank">Rank</th>
+                                    <th class="student_id">Student ID</th>
+                                    <th class="name">Name</th>
+                                    <th class="best_score">Best Score</th>
+                                </tr>
+                            </thead>
+                            <tbody id="main-table-body">
+                            </tbody>
+                            <tfoot id="main-table-foot"></tfoot>
+                        </table>
+                    </div>
+                    <div class="score_board_back">
+                        <button id="score_board_back"><-Back</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script type="module" src="src/main.js"></script>
+    <script type="module" src="src/game.js"></script>
+    <script type="module" src="src/menu.js"></script>
+    <script src="https://kit.fontawesome.com/0b18db8ba2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

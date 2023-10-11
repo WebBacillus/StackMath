@@ -1,0 +1,260 @@
+html,body {
+    height: 100%;
+}
+
+h1, h2, h3, p{
+    margin: 0 0;
+}
+
+html {
+    display: table;
+    width: 100%;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(at 28% 99%, rgb(223, 229, 113) 0px, transparent 50%) repeat scroll 0% 0%, 
+                radial-gradient(at 107% 8%, rgb(118, 249, 173) 0px, transparent 50%) repeat scroll 0% 0%, 
+                radial-gradient(at 89% 82%, rgb(233, 109, 131) 0px, transparent 50%) repeat scroll 0% 0%,
+                radial-gradient(at 106% 10%, rgb(222, 81, 251) 0px, transparent 50%) repeat scroll 0% 0%,    
+                radial-gradient(at 52% 20%, rgb(116, 240, 251) 0px, transparent 50%) repeat scroll 0% 0%,
+                radial-gradient(at 14% 49%, rgb(203, 88, 218) 0px, transparent 50%) repeat scroll 0% 0%, rgba(0, 0, 0, 0) 
+                radial-gradient(at 67% 33%, rgb(218, 83, 228) 0px, #a299ff 50%) repeat scroll 0% 0%;
+}
+
+/* .container1, .container2, .container3 {
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(at 28% 99%, rgb(223, 229, 113) 0px, transparent 50%) repeat scroll 0% 0%, 
+                radial-gradient(at 107% 8%, rgb(118, 249, 173) 0px, transparent 50%) repeat scroll 0% 0%, 
+                radial-gradient(at 89% 82%, rgb(233, 109, 131) 0px, transparent 50%) repeat scroll 0% 0%,
+                radial-gradient(at 106% 10%, rgb(222, 81, 251) 0px, transparent 50%) repeat scroll 0% 0%,    
+                radial-gradient(at 52% 20%, rgb(116, 240, 251) 0px, transparent 50%) repeat scroll 0% 0%,
+                radial-gradient(at 14% 49%, rgb(203, 88, 218) 0px, transparent 50%) repeat scroll 0% 0%, rgba(0, 0, 0, 0) 
+                radial-gradient(at 67% 33%, rgb(218, 83, 228) 0px, #a299ff 50%) repeat scroll 0% 0%;
+
+} */
+
+.container2 {
+    display: none;
+}
+
+.container3 {
+    display: none;
+}
+
+header {
+    margin: 0 auto;
+    width: fit-content;
+    height: fit-content;
+}
+
+.head_content {
+    padding-top: 5rem;
+}
+
+header h1 {
+    color: #3C615C;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
+    font-family: Aclonica;
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+header p {
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
+    font-family: Aclonica;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+section {
+    margin: 0 auto;
+    margin-top: 3rem;
+    width: fit-content;
+    height: fit-content;
+}
+
+.left {
+    position: fixed;
+    left: 0;
+    margin-left: 4rem;
+}
+
+.right {
+    position: fixed;
+    right: 0;
+    margin-right: 4rem;
+}
+
+.time, .score, .skip, .restart{
+    border: 2px solid black;
+    border-radius: 1.875rem;
+    background: #D9D9D9;
+    box-shadow: 2px 9px 4px 0px rgba(0, 0, 0, 0.50);
+    width: 13rem;
+    height: 5.25rem;
+    flex-shrink: 0;
+}
+
+.time_content, .score_content, .skip_content, .restart_content {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    flex-shrink: 0;
+    display: flex;
+
+}
+
+
+.time_content h2 , .score_content h2 , .skip_content button, .restart_content button {
+    color: #000;
+    font-family: Aclonica;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: auto;
+    margin-right: auto;
+}
+.time_counter, .score_counter {
+    margin: 0 auto;
+}
+
+
+.score, .restart{
+    margin-top: 4rem;
+}
+
+.skip_content :hover, .restart_content :hover {
+    box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+    transform: translateY(-2px);
+}
+
+.skip_content :active, .restart_content :active {
+    box-shadow: 0 0 9e9q inset #0009;
+    color: #fff;
+}
+
+
+.question {
+    width: 30rem;
+    height: 15rem;
+    flex-shrink: 0;
+    border-radius: 1.875rem;
+    background: #000;
+    box-shadow: 2px 9px 4px 0px rgba(0, 0, 0, 0.50);
+    margin: 0 auto;
+}
+
+.question_content {
+    padding: 2rem;
+}
+
+.question h1 {
+    color: white;
+    text-align: center;
+    font-family: Aclonica;
+    font-size: 10rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+footer {
+    margin-top: 3rem
+}
+
+.main_game{
+    display: flex;
+    text-align: center;
+    margin: auto 0;
+    height: 10rem;
+    padding: auto 0;
+}
+
+.block {
+    margin: 0 auto;
+    width: 10rem;
+    height: 10rem;
+    flex-shrink: 0;
+    border-radius: 0.4375rem;
+    background: #FFF;
+    box-shadow: 2px 9px 4px 0px rgba(0, 0, 0, 0.50);
+    border: 0.25rem solid #379588 ;
+    transform: translateY(0);
+    transition: transform 150ms, box-shadow 150ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.block h2{
+    margin: 0 0 ;
+    color: black;
+    font-size: 3rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.block :hover {
+    /* box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0; */
+    background-color: #edab62;
+    /* transform: translateY(-10px); */
+}
+
+.operation {
+    position: fixed;
+    /* background-color: indianred; */
+    display: flex;
+    bottom: 0px;
+    margin-bottom: 4rem;
+    width: 100%;
+}
+
+.op_block { 
+    text-align: center;
+    margin: auto auto;
+    width: 9.375rem;
+    height: 9.375rem;
+    flex-shrink: 0;
+    border-radius: 0.5rem;
+    background: #379588;
+    border: 0.25rem solid #379588;
+    box-shadow: 2px 9px 4px 0px rgba(0, 0, 0, 0.50);
+}
+
+.op_content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.op_block i {
+    text-align: center;
+    font-size: 6rem;
+    display: table-cell;
+    vertical-align: middle;
+    /* margin: auto 0; */
+}
+
