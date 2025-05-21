@@ -3,6 +3,19 @@ import cors from "cors";
 import mongoose from "mongoose";
 import {Item, Rank} from "./models/itemModel.js";
 
+import dotenv from "dotenv";
+
+dotenv.config({path: './config/config.env'});
+
+const mongoURI = process.env.MONGO_URI;
+mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
+  .then(() => {
+    console.log('เชื่อมต่อกับ MongoDB สำเร็จ');
+  })
+  .catch(err => {
+    console.error('เกิดข้อผิดพลาดในการเชื่อมต่อกับ MongoDB:', err);
+  });
+  
 const app = express();
 
 app.use(cors());
