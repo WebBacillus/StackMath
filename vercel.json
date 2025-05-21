@@ -6,6 +6,7 @@
   ],
   "routes": [
     { "src": "/api/(.*)", "dest": "backend/app.js" },
+    { "src": "/(.*)\\.(css|js|png|jpg|jpeg|gif|svg)", "dest": "frontend/public/$1.$2" },
     { "src": "/(.*)", "dest": "frontend/public/index.html" }
   ]
 }
