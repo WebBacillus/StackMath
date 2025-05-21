@@ -28,7 +28,7 @@ const rankSchema = new mongoose.Schema({
 });
 
 
-const Item = mongoose.model("quiz", itemSchema);
-const Rank = mongoose.model("rank", rankSchema);
+const Item = mongoose.model("quizzes", itemSchema);
+const Rank = mongoose.model("ranks", rankSchema);
 
 export {Item, Rank};

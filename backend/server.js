@@ -1,7 +1,10 @@
-// import "dotenv/config";
-// import "./config/db.js";
 import mongoose from "mongoose";
-const mongoURI = "mongodb+srv://balaka:balaka12345@cluster0.15mbtfe.mongodb.net/?retryWrites=true&w=majority";
+import app from "./app.js";
+import dotenv from "dotenv";
+
+dotenv.config({path: './config/config.env'});
+
+const mongoURI = process.env.MONGO_URI;
 mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {
     console.log('เชื่อมต่อกับ MongoDB สำเร็จ');
@@ -9,7 +12,7 @@ mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
   .catch(err => {
     console.error('เกิดข้อผิดพลาดในการเชื่อมต่อกับ MongoDB:', err);
   });
-import app from "./app.js";
+  
 
 
 process.on("uncaughtException", (err) => {
